@@ -1,0 +1,14 @@
+.group__total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.group__total .group {
+  margin-bottom: 10px;
+}
+
+.group__total .group.change input {
+  background: yellow;
+  color: #000;
+}

@@ -1,0 +1,31 @@
+table {
+  border: 1px solid #efefef;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+table th {
+  padding: 16px 20px;
+  text-align: left;
+  color: #fff;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: 1px solid #efefef;
+}
+
+table td {
+  border-top: 1px solid #efefef;
+  padding: 6px 20px;
+}
+
+table tbody > tr:first-child {
+  background: #2196f3;
+}
+
+table tr:nth-child(odd) {
+  background: #efefef;
+}
